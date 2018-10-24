@@ -18,9 +18,24 @@
         <p>Email: <strong class="detailEmail"></strong></p>
     </div>
 
+    <!-- add user module -->
+    <section id="add-user-module">
+        <button id="open-add-user-form-btn">+</button>
+        <form>
+            <h2>Add User</h2>
+            name:<br>
+            <input type='text' data-key='name' class='user-input'><br>
+            age:<br>
+            <input type='text' data-key='age' class='user-input'><br>
+            email:<br>
+            <input type='text' data-key='email' class='user-input'><br>
+            <button type='button' id="add-user-btn">add user</button>
+        </form>
+    </section>
 
-	<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
-	<script type="text/javascript" src="firebase.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script type="text/javascript" src="firebase.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
 
